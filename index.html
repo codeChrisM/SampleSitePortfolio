@@ -5,8 +5,34 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<script type="text/javascript" src= js/jquery.js></script>
 		<script type="text/javascript" src= js/bootstrap.js></script>
+		<style>
+			section{
+				width: 100vw;
+				height: 100vh;
+				padding: 50px;
+			}
+			.cl_white{
+				color: white;
+			}
+		</style>
 	</head>
-	<body>
+	<body data-spy= "scroll" data-target= ".navbar">
+		<nav class= "navbar navbar-inverse navbar-fixed-bottom">
+			<ul class="nav navbar-nav">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">What We Do?</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact </a></li>
+			</ul>
+		</nav>
+		<section id="home" style="background:url(images/ComicsWallpaper.jpg); background-size: 100% 100%" class = "cl_white text-center">
+			<h1>Our portfolio</h1>
+			<p class = "lead">Read about our work and feel free to contact us!</p>
+			<button class= "btn btn-default"> Contact Us</button>
+		</section>
+
+
+
 	</body>
 
 </html>
