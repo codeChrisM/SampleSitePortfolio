@@ -15,11 +15,16 @@
 				color: white;
 			}
 			img{
-				width: 300px;
-				transition: opacity: 3s ease-in-out;
+				width: 250px;
+				-webkit-transition: opacity 5s ease-in-out;
+				-webkit-transition: width 2s,
 			}
 			img:hover{
-				opacity: .5;
+				opacity: .2;
+				width:300px;
+			}
+			.col-text{
+				-webkit-column-count:3;
 			}
 		</style>
 	</head>
@@ -49,8 +54,38 @@
 			<img src="images/office-4.jpg" class="img-thumbnail">
 			<img src="images/office-3.jpg" class="img-thumbnail">
 			<img src="images/office-2.jpg" class="img-thumbnail">
-			<img src="images/office-3.jpg" class="img-thumbnail">
+		</section>
 
+		<section id ="about" class="container">
+			<h2 class="text-center">About Us</h2>
+			<div class="col-text">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis ipsum condimentum, suscipit eros condimentum, faucibus metus. Sed quis tellus vitae nibh auctor tincidunt. Nam vulputate Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis ipsum condimentum, suscipit eros condimentum, faucibus metus. Sed quis tellus vitae nibh auctor tincidunt. Nam vulputate eleifend ligula sit amet pharetra. Sed ante mauris, tristique et pharetra egestas, vestibulum at diam. Etiam vulputate dolor vitae placerat mi quis posuere luctus, ex elit vehicula orci, eget laoreet est purus eget est.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis ipsum condimentum, suscipit eros condimentum, faucibus metus. Sed quis tellus vitae nibh auctor tincidunt. Nam vulputate Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis ipsum condimentum, suscipit eros condimentum, faucibus metus. Sed quis tellus vitae nibh auctor tincidunt. Nam vulputate eleifend ligula sit amet pharetra. Sed ante mauris.
+			</div>
+			<div class = "row">
+				<div class="col-md-6">
+					<div class="panel panel-primary">
+						<div class="panel-heading ">
+							<h4>Web Design</h4>
+						</div>
+						<div class="panel-body"></div>
+							<img src="images/office-1.jpg" class="img-circle center-block">
+							<p class="lead text-center">We do internet stuff</p>
+						<div class="panel-footer"></div>
+					</div>
+				</div>
+			
+				<div class="col-md-6">
+					<div class="panel panel-primary">
+						<div class="panel-heading ">
+							<h4>Web Design</h4>
+						</div>
+						<div class="panel-body"></div>
+							<img src="images/office-1.jpg" class="img-circle center-block">
+							<p class="lead text-center">We do internet stuff</p>
+						<div class="panel-footer"></div>
+					</div>
+				</div>
+			</div>
 		</section>
 
 
