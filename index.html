@@ -3,29 +3,29 @@
 	<head>
 		<title>Website Design Sample: Portfolio</title>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link href='https://fonts.googleapis.com/css?family=Kanit:700' rel='stylesheet' type='text/css'>
 		<script type="text/javascript" src= js/jquery.js></script>
 		<script type="text/javascript" src= js/bootstrap.js></script>
 		<style>
-			section{
-				width: 100vw;
-				height: 100vh;
-				padding: 50px;
+			#home {
+				font-family: 'Kanit', sans-serif;
 			}
+
 			.cl_white{
 				color: white;
 			}
 			.thumbs img{
-				margin: 10px;
+				margin: 11px;
 				width: 250px;
 				height: 250px;
-				opacity: 0.5;
-				-webkit-transition: opacity 5s ease-in-out;
-				-webkit-transition: width 2s,
+				opacity: 0.7;
+				-webkit-transition: opacity 2s ease-in-out;
+				-webkit-transition: width 2s;
 			}
 			.thumbs img:hover{
-				opacity: 0.7;
-				width: 240px;
-				height: 240px;
+				opacity: 1;
+				width: 290px;
+				height: 250px;
 			}
 			.col-text{
 				-webkit-column-count:3;
@@ -42,15 +42,16 @@
 			</ul>
 		</nav>
 
-		<section id="home" style="background:url(images/ComicsWallpaper.jpg); background-size: 100% 100%;" class = "cl_white text-center">
-			<h1 class="jumbotron img-rounded" style="background:#3b5c6b">Our Portfolio</h1>
-			<p class = "lead img-rounded" style="background:#627c6e;">This is a sample page for a company like yours!</p>
+		<section id="home" style="background: #406498;" class = "container text-center">
+			<h1 class="jumbotron img-rounded" style="background:#ff2603; color:#f3f2f0; font-size: 90px; margin-top: 100px;width :100%">Our Portfolio</h1>
+			<p class = "lead img-rounded" style="background:#ff2603; color:#f3f2f0;">This is a sample page for a company like yours!</p>
 			<button class= "btn btn-success "> Contact Us</button>
 		</section>
 
-		<section id ="work" class="container thumbs">
-			<div class="page-header">
-				<h1 class="text-center">Our Work</h1>			
+		<section id ="work" class=" container thumbs" >
+			<div class="page-header ">
+				<h1 class="text-center ">Our Work</h1>	
+			<div class="img-rounded"style="background:#ff2603">	
 			<img src="images/office-1.jpg" class="img-thumbnail">
 			<img src="images/office-2.jpg" class="img-thumbnail">
 			<img src="images/office-3.jpg" class="img-thumbnail">
@@ -59,12 +60,13 @@
 			<img src="images/office-2.jpg" class="img-thumbnail">
 			<img src="images/office-3.jpg" class="img-thumbnail">
 			<img src="images/office-2.jpg" class="img-thumbnail">
+			</div>	
 			</div>
 		</section>
 
 		<section id ="about" class="container">
 			<h2 class="text-center">About Us</h2>
-			<div class="col-text">
+			<div class="col-text" style="padding-bottom:40px">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis ipsum condimentum, suscipit eros condimentum, faucibus metus. Sed quis tellus vitae nibh auctor tincidunt. Nam vulputate Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis ipsum condimentum, suscipit eros condimentum, faucibus metus. Sed quis tellus vitae nibh auctor tincidunt. Nam vulputate eleifend ligula sit amet pharetra. Sed ante mauris, tristique et pharetra egestas, vestibulum at diam. Etiam vulputate dolor vitae placerat mi quis posuere luctus, ex elit vehicula orci, eget laoreet est purus eget est.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis ipsum condimentum, suscipit eros condimentum, faucibus metus. Sed quis tellus vitae nibh auctor tincidunt. Nam vulputate Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis ipsum condimentum, suscipit eros condimentum, faucibus metus. Sed quis tellus vitae nibh auctor tincidunt. Nam vulputate eleifend ligula sit amet pharetra. Sed ante mauris.
 			</div>
 			<div class = "row">
